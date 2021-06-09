@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex jsb">
+        <strong>LOGIN APP</strong>
+        <div>
+          <a class="btn btn-pri" href="/users/login">Login</a>
+          <a class="btn btn-pri" href="/users/register">Register</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="sec-padding">
+        <div class="container regis-div">
+          <h2 class="sec-heading">Login page</h2>
+          <form action="/users/login" method="POST">
+            <input type="email" placeholder="email" name="email" />
+            <input type="text" placeholder="password" name="password" />
+            <a href="#">
+              <button class="btn btn-pri" type="submit">Submit</button>
+            </a>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
