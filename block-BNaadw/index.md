@@ -25,7 +25,7 @@ While inserting the article data into database:
 - define a pre save to generate slug from title and save it to database
 - ensure that each slug generated should be unique in entire articles collection.
 - optionally, you can use `slug` or `slugger` npm module to generate slug.
-
+<!-- 
 Implement user registration and login on top of the blog application.
 
 Registration form should input fields like
@@ -36,7 +36,7 @@ Registration form should input fields like
 - password
 - city
 
-Define a method on userSchema to generate `fullName` of the user using `firstName` and `lastName`
+Define a method on userSchema to generate `fullName` of the user using `firstName` and `lastName` -->
 
 Ensure that:
 
